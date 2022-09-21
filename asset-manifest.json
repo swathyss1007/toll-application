@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/toll-application/static/css/main.aed06859.css",
+    "main.js": "/toll-application/static/js/main.0a3df588.js",
+    "static/media/searchIcon.png": "/toll-application/static/media/searchIcon.7354eedce17d31208819.png",
+    "index.html": "/toll-application/index.html",
+    "main.aed06859.css.map": "/toll-application/static/css/main.aed06859.css.map",
+    "main.0a3df588.js.map": "/toll-application/static/js/main.0a3df588.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aed06859.css",
+    "static/js/main.0a3df588.js"
+  ]
+}
