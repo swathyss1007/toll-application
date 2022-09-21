@@ -1,0 +1,63 @@
+.my-table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+    z-index: -1; 
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+}
+
+
+tr{
+    border-bottom: solid 1px lightgray;
+    background-color: white;
+}
+
+tbody tr:hover{
+    background-color: #e7edfe;
+    cursor: pointer;
+}
+
+th{
+    color: grey;
+    font-size: 10px;
+    background-color: lightgray;
+    
+}
+
+td,th{
+    text-align: left;
+    padding: 10px;
+}
+
+.first-col{
+    font-weight: bold;
+}
+
+.trash-icon-div{
+    width: 24px;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 5px;
+    /* z-index: 1;
+    position: absolute; */
+}
+
+.trash-icon-div:hover{
+    background-color: rgba(181, 181, 181, 0.5);
+    cursor: pointer;
+}
+
+.trash-icon{
+    margin-left: 5px;
+    margin-top: 4px;
+}

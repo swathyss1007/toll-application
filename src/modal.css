@@ -1,0 +1,117 @@
+.modal-BG{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed; 
+
+}
+
+
+.add-modal-vehicle{
+   border: solid 1px whitesmoke;
+   height: 480px;
+   width: 400px;
+   border-radius: 5px;
+   padding: 25px;
+   background-color: white;
+   box-shadow: 0 2px 4px 0 rgb(75, 75, 75);
+   position: absolute;
+   top: -75px;
+   z-index: 1;
+   
+}
+
+.add-modal-toll{
+    border: solid 1px whitesmoke;
+    height: 530px;
+    width: 750px;
+    border-radius: 5px;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgb(75, 75, 75);
+    position: absolute;
+    top: -80px;
+    z-index: 1;
+    transition: 0.5s;
+   
+}
+
+.close-symbol{
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+    cursor: pointer;
+}
+
+.add-header{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+   
+}
+
+.toll-name-div{
+    padding: 10px;
+}
+
+
+.toll-name{
+    width: 100%;
+    margin-top: 10px;
+   
+}
+
+.toll-fare{
+    max-width: 100%;
+    padding: 10px;
+  
+}
+
+.vehicle-fare-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.input-box{
+    width: 100%;
+    height: 40px;
+    border: solid 0.5px lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.select-box{
+    width: 102%;
+    height: 40px;
+    border: solid 0.5px lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.modal-submit{
+    background-color:  royalblue;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+

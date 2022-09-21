@@ -1,0 +1,149 @@
+*{
+   margin: 0; 
+   box-sizing: border-box;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav{
+    /* background-color:aliceblue; */
+   height: 50px;
+   display: flex;
+   align-items: center;
+   /* border-bottom: solid 0.5px rgb(99, 98, 98); */
+   box-shadow: 0 2px 4px 0 rgba(155, 155, 155, 0.5);
+}
+
+.nav-title{
+   font-size:16px ;
+   font-weight: 400;
+   margin-left: 20px;
+   font-weight: bold;
+}
+
+.main{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-div-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title{
+    font-weight: bold;
+}
+
+.pipe-symbol{
+    font-size: 12px;
+    color: rgb(177, 180, 182);
+    margin-left: 5px;
+}
+
+.filter-img{
+    height: 15px;
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.search-input{
+    background-image: url("./Images/searchIcon.png");
+    background-repeat: no-repeat;
+    padding-left:25px ;
+    background-size:15px;
+    margin-left: 15px;
+    margin-top: 4px;
+    border-radius: 10px;
+    border: solid 1px gray;
+    background-position: 3% 50% ;
+}
+
+.main-div-2{
+    display: flex;
+    align-items: center;
+}
+
+.main-button{
+    margin-right: 15px;
+    color: white;
+    background-color:cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+.blur{
+    filter: blur(1px);
+}
+
+.red-star{
+    color: red;
+}
+
+
+.filter-container{
+    position: relative;
+    max-width: 50px;
+    width: 100%;
+}
+
+.list-items{
+    position: absolute;
+    width: 250px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 3px;
+    padding: 15px;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.1);
+    display: none;
+}
+
+.list-items .item{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+
+.list-items .item:hover{
+    background-color: #e7edfe;
+}
+
+.item .item-text{
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.item .checkbox{
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.checkbox .check-icon{
+    font-size: 20px;
+    color: deepskyblue;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.item.checked .check-icon{
+    transform: scale(1);
+}
